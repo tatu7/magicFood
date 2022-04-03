@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.title {
+  font-weight: 900;
+  text-align: center;
+  font-size: 2.4rem;
+  margin: 2rem 0;
+}
+.main__description {
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  letter-spacing: 2px;
+}
+i {
+  display: block;
+  margin: 1rem auto;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.form input {
+  outline: none;
+  padding: 1.4rem;
+  width: 50%;
+  border: 2px solid coral;
+  border-radius: 3.2rem 0 0 3.2rem;
+  font-size: 1.8rem;
+  color: coral;
+}
+.form input::placeholder {
+  color: coral;
+}
+.form button {
+  outline: none;
+  padding: 1.4rem;
+  border: 2px solid coral;
+  border-radius: 0 3.2rem 3.2rem 0;
+  background-color: coral;
+  /* width: 50%; */
+}
+.please {
+  color: coral;
+  font-size: 2.3rem;
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+}
+.resultTitle {
+  font-weight: 800;
+  text-align: center;
+  font-size: 2.8rem;
+  margin: 1rem 0;
+  letter-spacing: 2px;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3rem;
+}
+.card {
+  position: relative;
+  border-radius: 1rem;
+  width: 80%;
+  height: 45rem;
+  margin: 1.4rem auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+}
+.img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  height: 60%;
+}
+.name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.openBtn {
+  outline: none;
+  padding: 1.4rem 4rem;
+  border: none;
+  color: aliceblue;
+  border-radius: 3.2rem;
+  background-color: coral;
+  margin-top: 4.4rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.popap {
+  top: 2rem;
+  position: absolute;
+  color: #fff;
+  background-color: rgb(255, 68, 0);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: auto;
+  width: 80vw;
+  align-items: center;
+  left: 15rem;
+  opacity: 0;
+  display: none;
+  transition: all 1s;
+  padding: 1.6rem 0;
+}
+.popap img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  border: none;
+  background-color: #fff;
+  color: rgb(255, 0, 0);
+  font-size: 2.4rem;
+  padding: 1rem 1.4rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.popapName {
+  margin-top: 7rem;
+  font-size: 3rem;
+}
+.line {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+.description {
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  line-height: 1.5;
+  margin: 2rem;
+}
+a {
+  /* text-decoration: none; */
+  color: rgb(3, 5, 168);
+  font-size: 2rem;
+  margin: 1.3rem 0;
+}
