@@ -36,6 +36,8 @@ function renderFunc(meals) {
       popap.innerHTML = "";
       popap.style.display = "flex";
       popap.style.opacity = "1";
+      popap.style.top = window.pageYOffset + 20 + "px";
+      console.log(window.pageYOffset);
       let pop = `<button class="close">X</button>
       <div class="popapName">${arr.strMeal}</div>
       <div class="line">instructions:</div>
@@ -51,9 +53,7 @@ function renderFunc(meals) {
     });
   });
 }
-
 function findElement(obj) {}
-
 findBtn.addEventListener("click", (e) => {
   e.preventDefault();
   getFetch(input.value);
