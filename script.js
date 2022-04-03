@@ -33,6 +33,7 @@ function renderFunc(meals) {
       let arr = meals.find((val) => {
         return val.idMeal === id;
       });
+      popap.innerHTML = "";
       popap.style.display = "flex";
       popap.style.opacity = "1";
       let pop = `<button class="close">X</button>
