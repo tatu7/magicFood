@@ -156,3 +156,60 @@ a {
   font-size: 2rem;
   margin: 1.3rem 0;
 }
+@media (max-width: 900px) {
+  .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+  }
+  .popap {
+    left: 8rem;
+  }
+}
+@media (max-width: 600px) {
+  .box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 1rem;
+  }
+  .popap {
+    left: 8rem;
+  }
+}
+@media (max-width: 400px) {
+  .card {
+    border-radius: 0.2rem;
+    width: 65%;
+    height: 29rem;
+  }
+  .name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+  .popap {
+    left: 8rem;
+  }
+  .openBtn {
+    padding: 0.8rem 2rem;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .main__description {
+    font-size: 1.4rem;
+  }
+  .form input {
+    padding: 1rem;
+    width: 50%;
+    border: 2px solid coral;
+    border-radius: 3.2rem 0 0 3.2rem;
+    font-size: 1.3rem;
+    color: coral;
+  }
+  .resultTitle {
+    font-size: 1.8rem;
+  }
+} ;
